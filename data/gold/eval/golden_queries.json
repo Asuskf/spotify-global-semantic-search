@@ -1,0 +1,206 @@
+{
+  "_estado": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)",
+  "_nota": "Rellena relevant_track_ids con track_id del dataset. src/eval.py falla mientras haya consultas sin etiquetar. Los artistas citados pueden no estar en el dataset: POR VERIFICAR.",
+  "queries": [
+    {
+      "id": "q01",
+      "lang": "es",
+      "type": "genre",
+      "text": "música pop para bailar",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q02",
+      "lang": "es",
+      "type": "genre",
+      "text": "rock en español de los años 2010",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q03",
+      "lang": "es",
+      "type": "genre",
+      "text": "reguetón y trap latino",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q04",
+      "lang": "es",
+      "type": "genre",
+      "text": "canciones de hip hop",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q05",
+      "lang": "es",
+      "type": "genre",
+      "text": "música electrónica para fiestas",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q06",
+      "lang": "es",
+      "type": "era",
+      "text": "éxitos del 2015",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q07",
+      "lang": "es",
+      "type": "era",
+      "text": "lanzamientos recientes de 2024",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q08",
+      "lang": "es",
+      "type": "mood",
+      "text": "canciones tristes para llorar",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q09",
+      "lang": "es",
+      "type": "mood",
+      "text": "música alegre para el verano",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q10",
+      "lang": "es",
+      "type": "mood",
+      "text": "algo tranquilo para estudiar",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q11",
+      "lang": "es",
+      "type": "artist",
+      "text": "canciones de Bad Bunny",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q12",
+      "lang": "es",
+      "type": "album_type",
+      "text": "sencillos recientes",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q13",
+      "lang": "es",
+      "type": "explicit",
+      "text": "canciones con contenido explícito",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q14",
+      "lang": "en",
+      "type": "genre",
+      "text": "indie rock songs",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q15",
+      "lang": "en",
+      "type": "genre",
+      "text": "classic country music",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q16",
+      "lang": "en",
+      "type": "genre",
+      "text": "k-pop hits",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q17",
+      "lang": "en",
+      "type": "genre",
+      "text": "latin pop",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q18",
+      "lang": "en",
+      "type": "era",
+      "text": "songs from 2012",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q19",
+      "lang": "en",
+      "type": "era",
+      "text": "new releases in 2025",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q20",
+      "lang": "en",
+      "type": "mood",
+      "text": "sad songs for a breakup",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q21",
+      "lang": "en",
+      "type": "mood",
+      "text": "upbeat workout music",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q22",
+      "lang": "en",
+      "type": "mood",
+      "text": "relaxing songs to sleep",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q23",
+      "lang": "en",
+      "type": "artist",
+      "text": "Taylor Swift songs",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q24",
+      "lang": "en",
+      "type": "album_type",
+      "text": "full albums of electronic music",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    },
+    {
+      "id": "q25",
+      "lang": "en",
+      "type": "explicit",
+      "text": "explicit rap songs",
+      "relevant_track_ids": [],
+      "label_status": "POR ETIQUETAR (quién etiqueta: POR DEFINIR)"
+    }
+  ]
+}

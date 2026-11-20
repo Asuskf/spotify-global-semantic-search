@@ -221,3 +221,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Este proyecto ---
+node_modules/
+web/dist/
+e2e/test-results/
+e2e/playwright-report/
+# Datos generados: se regeneran con scripts/init.sh (el CSV de Kaggle no se redistribuye; licencia POR VERIFICAR).
+# Se conserva solo el conjunto dorado, que es fuente y no salida.
+data/*
+!data/gold/
+data/gold/*
+!data/gold/eval/
+CLAUDE.local.md
+.claude/settings.local.json

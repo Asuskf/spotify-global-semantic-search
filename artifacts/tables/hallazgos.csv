@@ -1,0 +1,12 @@
+severidad,hallazgo,filas,pct
+critico,artista vacio (sin popularidad/seguidores/generos),4,0.05
+alto,sin ningun genero (lista vacia o artista vacio),4496,51.22
+alto,lanzamiento fuera de 2009-2025,1422,16.2
+medio,fecha de lanzamiento '0000' (anio invalido),2,0.02
+medio,fecha solo con anio o anio-mes (sin dia),201,2.29
+medio,nombre de cancion o album vacio,2,0.02
+medio,track_number > album_total_tracks,0,0.0
+medio,duracion = 0 ms (placeholder; se excluye de T3),2,0.02
+bajo,popularidad de cancion = 0,521,5.94
+bajo,mismo artista + mismo nombre de cancion (posible duplicado),1548,17.63
+bajo,nombre de cancion solo numerico,27,0.31

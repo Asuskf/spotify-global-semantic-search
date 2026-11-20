@@ -1,0 +1,103 @@
+{
+  "_reglas": "Estados: not_started -> active -> passing | blocked. SOLO UNO active (WIP=1). El agente no marca passing: lo marca la verificación, con evidencia. Prohibido reescribir esta lista para ocultar trabajo pendiente.",
+  "features": [
+    {
+      "id": "F01",
+      "behavior": "Bronce: copia byte a byte de los CSV, write-once con SHA-256 y manifiesto",
+      "verification": "uv run pytest -q tests/test_pipeline.py  +  manifiesto data/bronze/_manifest.json con qa 6/6 ok",
+      "state": "passing",
+      "evidence": "2026-11-19: manifiesto bronce run 20261119T010847Z, 6/6 ok (leído); pytest local verde en check.sh"
+    },
+    {
+      "id": "F02",
+      "behavior": "Plata: tracks/artists/track_genres tipados, findings, 33 controles de QA",
+      "verification": "manifiesto data/silver/_manifest.json con qa todos ok",
+      "state": "passing",
+      "evidence": "2026-11-19: manifiesto plata run 20261119T010849Z, 33/33 ok (leído)"
+    },
+    {
+      "id": "F03",
+      "behavior": "Oro: search_docs, embeddings e5-base, hnsw.index, version_groups; recall@10 >= 0.95",
+      "verification": "manifiesto data/gold/_manifest.json con qa todos ok; scripts/check.sh (n_vectors en /health)",
+      "state": "passing",
+      "evidence": "2026-11-19: oro run 20261119T013025Z, 10/10 ok, recall@10 0.9905 (informe del agente, QA leído en el manifiesto); /health n_vectors 8778"
+    },
+    {
+      "id": "F04",
+      "behavior": "API: GET /health y POST /search con el contrato de SPEC §7",
+      "verification": "scripts/check.sh  y  pruebas completas en Docker (30 passed)",
+      "state": "passing",
+      "evidence": "2026-11-19 (revisión): 30 passed en Docker (salida leída; +6 pruebas de manifiesto/linaje/write-once/API); check.sh --e2e OK: 10 passed/20 skipped local, health + búsqueda real, 24 E2E passed. Antes: 24 passed en Docker según agente"
+    },
+    {
+      "id": "F05",
+      "behavior": "Front: la UI muestra resultados reales (tarjeta completa, vacío, error, otras versiones) en http://localhost:8080",
+      "verification": "cd e2e && npx playwright test (24 pruebas) y revisión visual en el navegador, escritorio y 375 px",
+      "state": "passing",
+      "evidence": "2026-11-19: contenedor web reconstruido; 24 passed (6 contrato API + 18 UI) en 32.9 s; vista real revisada en escritorio y móvil, sin scroll horizontal. Safari/Firefox y lector de pantalla sin probar"
+    },
+    {
+      "id": "F06",
+      "behavior": "docker compose up -d --build levanta api healthy y web desde cero",
+      "verification": "docker compose up -d --build && scripts/check.sh",
+      "state": "passing",
+      "evidence": "2026-11-19: api healthy en ~26 s, web 200, check.sh OK"
+    },
+    {
+      "id": "F07",
+      "behavior": "Conjunto dorado: 25 consultas con relevant_track_ids etiquetados",
+      "verification": "uv run python -m src.eval no falla por consultas sin etiquetar",
+      "state": "blocked",
+      "evidence": "bloqueado: quién etiqueta está POR DEFINIR (decisión del usuario); no se inventan etiquetas"
+    },
+    {
+      "id": "F08",
+      "behavior": "Evaluación: recall@10 y nDCG@10 del semántico vs baseline BM25 reportados",
+      "verification": "uv run python -m src.eval imprime ambas métricas para ambos sistemas",
+      "state": "blocked",
+      "evidence": "depende de F07"
+    },
+    {
+      "id": "F09",
+      "behavior": "Linaje por fila: script que recorre lineage.jsonl de un vector a su fila de bronce para 5 track_id (SPEC §8.2)",
+      "verification": "script sin huecos para 5 track_id al azar",
+      "state": "not_started",
+      "evidence": ""
+    },
+    {
+      "id": "F10",
+      "behavior": "Reproducibilidad del oro: segunda corrida con coseno >= 0.9999 contra la de referencia (SPEC §3.5)",
+      "verification": "comparar embeddings.npy de dos corridas en Docker",
+      "state": "not_started",
+      "evidence": ""
+    },
+    {
+      "id": "F11",
+      "behavior": "Un desarrollador nuevo ejecuta el repo desde un clon limpio sin esta sesión (README + scripts/init.sh)",
+      "verification": "copia limpia sin data/.venv/node_modules: scripts/init.sh --sin-stack termina OK; luego docker compose up y scripts/check.sh",
+      "state": "active",
+      "evidence": "README.md, scripts/init.sh, .gitignore y .claude/settings.json escritos. 2026-11-19: la copia limpia del ensayo (sin git) tiene manifiestos bronce 6/6, plata 33/33 y oro 10/10 (leídos; run_id 20261120T0124..-sin-git). POR VERIFICAR: que la salida de init.sh --sin-stack fue OK (no se vio), si kagglehub pidió credenciales, y docker compose + check.sh desde esa copia"
+    },
+    {
+      "id": "F12",
+      "behavior": "Rediseño de la UI con la identidad SEVEN TECH (brand-guidelines-seventech), impeccable y ui-ux-pro-max",
+      "verification": "cd e2e && npx playwright test ui.spec.ts + revisión visual; contrastes AA calculados",
+      "state": "passing",
+      "evidence": "2026-11-19: contrastes calculados por el agente (mín. 5.34:1 en texto y foco); 18 pruebas de UI pasan; wordmark de texto porque falta el logo oficial"
+    },
+    {
+      "id": "F13",
+      "behavior": "Suite E2E Playwright (Chromium) en e2e/: contrato de API y UI con API real y simulada",
+      "verification": "cd e2e && npx playwright test",
+      "state": "passing",
+      "evidence": "2026-11-19: 24 passed (32.9 s) contra el stack real"
+    },
+    {
+      "id": "F14",
+      "behavior": "Logo oficial (escudo de Python Guaranda) en la cabecera",
+      "verification": "assets/logos/logo-seventech.png presente en la skill y usado en web/",
+      "state": "blocked",
+      "evidence": "bloqueado: el archivo no vino en el .skill; descargarlo o aportarlo es decisión del usuario"
+    }
+  ]
+}

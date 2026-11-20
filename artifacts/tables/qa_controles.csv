@@ -1,0 +1,28 @@
+control,ok,detalle
+filas archivo == filas crudas,true,8778 vs 8778
+filas crudas == filas tipadas,true,8778 vs 8778
+track_id unico,true,8778 unicos
+track_id identico y en el mismo orden,true,""
+ida y vuelta: track_name,true,0 filas distintas
+ida y vuelta: artist_name,true,0 filas distintas
+ida y vuelta: album_name,true,0 filas distintas
+ida y vuelta: track_number,true,0 filas distintas
+ida y vuelta: track_popularity,true,0 filas distintas
+ida y vuelta: track_duration_ms,true,0 filas distintas
+ida y vuelta: album_total_tracks,true,0 filas distintas
+ida y vuelta: explicit,true,0 filas distintas
+ida y vuelta: artist_popularity,true,0 filas distintas
+ida y vuelta: artist_followers,true,0 filas distintas
+ida y vuelta: album_id,true,0 filas distintas
+ida y vuelta: album_type,true,0 filas distintas
+ida y vuelta: album_release_date,true,0 filas distintas
+album_release_date: precision cubre todas las filas,true,""
+ida y vuelta: artist_genres,true,0 filas distintas
+"popularidad cancion en [0,100]",true,""
+"popularidad artista en [0,100]",true,""
+duracion >= 0,true,""
+seguidores >= 0,true,""
+track_number >= 1,true,""
+sum(genre_count) == filas tabla larga,true,7656 vs 7656
+regrupar generos == lista original,true,""
+canciones con genero + sin genero == total,true,""

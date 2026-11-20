@@ -1,0 +1,424 @@
+genre,canciones,artistas,mediana_pop
+soundtrack,451,88,42.0
+pop,386,8,65.0
+rap,304,19,67.0
+country,276,99,57.0
+rock,270,39,58.0
+soft pop,224,12,63.0
+art pop,181,18,55.0
+hip hop,149,23,63.0
+nu metal,123,14,57.0
+dark r&b,119,35,52.0
+edm,112,17,65.5
+grunge,104,7,29.0
+classic rock,104,27,65.0
+egyptian pop,102,11,43.0
+latin,98,15,72.0
+acoustic country,97,22,56.0
+k-pop,93,21,68.0
+emo rap,93,14,54.0
+alternative rock,91,17,65.0
+alternative metal,88,17,71.0
+metal,86,13,43.0
+reggaeton,86,16,74.0
+medieval,85,27,44.0
+anime,82,29,35.0
+r&b,78,20,70.5
+urbano latino,74,9,75.0
+cloud rap,70,8,52.0
+rap metal,69,10,69.0
+classic country,66,26,60.5
+trap latino,64,7,75.0
+old school hip hop,63,26,66.0
+art rock,62,7,63.0
+east coast hip hop,62,23,62.0
+industrial,57,5,40.0
+industrial metal,56,4,40.0
+industrial rock,56,4,40.0
+khaleeji,55,5,41.0
+mahraganat,54,6,47.0
+indie,53,18,77.0
+slap house,52,24,45.0
+bedroom pop,52,14,63.0
+rage rap,49,3,64.0
+latin pop,49,4,38.0
+psychedelic rock,49,11,63.0
+arabic hip hop,47,7,47.0
+egyptian hip hop,46,6,47.5
+sholawat,45,3,41.0
+melodic rap,44,14,68.5
+hypertechno,44,28,39.5
+hard rock,43,15,64.0
+celtic,40,19,39.0
+west coast hip hop,40,12,73.0
+pop punk,37,13,72.0
+post-grunge,36,17,72.5
+witch house,34,15,47.0
+hyperpop,34,4,67.0
+gangster rap,33,12,70.0
+emo,32,13,73.5
+garage rock,32,12,68.5
+tropical house,30,12,62.0
+alternative r&b,29,7,44.0
+soft rock,29,9,67.0
+darkwave,29,15,52.0
+pop country,28,9,56.0
+southern gothic,26,14,25.5
+baroque pop,25,11,53.0
+nightcore,25,8,31.0
+dream pop,25,9,51.0
+traditional country,24,13,53.0
+norwegian pop,24,2,36.0
+electronic,23,5,51.0
+christmas,22,9,65.5
+g-funk,22,9,71.0
+glam metal,21,8,74.0
+honky tonk,21,9,61.0
+punk,21,8,69.0
+new wave,20,10,71.0
+neo-psychedelic,20,5,72.5
+drill,20,10,70.5
+progressive rock,20,6,67.0
+southern hip hop,20,11,64.0
+indie rock,20,12,58.0
+neoclassical,17,5,36.0
+outlaw country,17,12,53.0
+shoegaze,17,8,64.0
+singer-songwriter,17,11,45.0
+synthpop,16,12,66.0
+blues rock,16,9,60.0
+trap,16,4,66.5
+electro house,15,6,65.0
+classical,15,11,21.0
+moombahton,14,2,35.5
+afrobeats,14,10,60.5
+big room,14,6,58.0
+folk pop,14,5,7.5
+folk,14,8,42.0
+trap soul,14,8,70.0
+post-punk,14,11,29.5
+noise rock,14,6,37.5
+house,14,11,69.0
+trance,13,5,67.0
+yacht rock,13,6,68.0
+madchester,13,3,71.0
+hardcore hip hop,12,6,63.5
+dubstep,12,3,41.0
+funk rock,12,3,79.0
+grime,12,8,60.0
+slowcore,12,6,65.0
+synthwave,12,9,52.5
+lo-fi indie,12,4,74.0
+uk grime,12,7,59.5
+glam rock,12,6,74.0
+riot grrrl,11,9,0.0
+electroclash,11,8,52.0
+proto-punk,11,7,20.0
+indie folk,11,5,38.0
+britpop,11,6,71.0
+uk drill,11,7,64.0
+heavy metal,11,5,59.0
+electro,11,2,50.0
+country rock,11,7,45.0
+japanese classical,10,4,40.5
+jangle pop,10,3,69.5
+aor,10,7,57.0
+europop,10,8,68.0
+surf rock,10,8,43.0
+skate punk,9,3,70.0
+alternative dance,9,3,46.0
+future bass,9,7,42.0
+cold wave,9,8,52.0
+egyptian shaabi,9,1,41.0
+sea shanties,9,8,42.0
+acid rock,9,6,65.0
+downtempo,9,8,13.0
+melodic bass,9,6,35.0
+french pop,9,5,68.0
+afro house,9,7,57.0
+eurodance,9,7,65.0
+bluegrass,8,5,46.0
+electronica,8,3,67.5
+german indie,8,6,43.0
+corridos tumbados,8,6,75.0
+trap metal,8,6,59.0
+rap rock,8,4,75.0
+red dirt,8,7,69.5
+country hip hop,8,5,43.5
+hard techno,8,5,47.5
+corrido,8,6,75.0
+trip hop,8,6,36.0
+americana,8,7,52.0
+motown,8,8,49.5
+christian country,8,4,67.0
+neo soul,8,4,65.5
+corridos bélicos,8,6,75.0
+folk rock,8,5,49.5
+brooklyn drill,8,4,73.0
+german hip hop,8,6,47.0
+queercore,8,7,0.0
+new york drill,7,3,72.0
+progressive house,7,2,69.0
+orchestral,7,5,10.0
+dancehall,7,4,61.0
+sad sierreño,7,5,75.0
+música mexicana,7,5,75.0
+german indie pop,7,5,43.0
+brazilian bass,7,1,66.0
+afrobeat,7,7,57.0
+phonk,7,7,71.0
+horrorcore,6,4,32.0
+rock and roll,6,4,81.5
+stoner rock,6,4,34.5
+soul,6,6,58.0
+classic soul,6,6,50.0
+musicals,6,5,72.5
+sierreño,6,4,79.0
+lo-fi,6,5,35.0
+german pop,6,4,46.0
+reggae,6,4,33.5
+vaporwave,6,4,53.5
+jazz rap,6,6,65.5
+chamber music,6,4,20.5
+melbourne bounce,6,5,47.5
+chicago drill,6,4,59.5
+banda,6,4,74.5
+new age,6,6,39.0
+french house,6,4,73.5
+lo-fi beats,5,4,33.0
+quiet storm,5,5,62.0
+newgrass,5,3,39.0
+lo-fi hip hop,5,4,33.0
+deep house,5,4,26.0
+rockabilly,5,4,43.0
+drone,5,2,44.0
+christian,5,5,67.0
+folk metal,5,3,45.0
+texas country,5,5,46.0
+new rave,5,2,67.0
+italo dance,5,2,54.0
+alté,5,5,34.0
+modern blues,5,3,38.0
+christian hip hop,5,5,49.0
+ambient folk,5,3,43.0
+electro corridos,5,4,83.0
+drum and bass,5,5,61.0
+bass music,5,2,35.0
+underground hip hop,4,2,64.5
+thrash metal,4,1,38.0
+southern rock,4,3,69.0
+pop soul,4,2,88.0
+disco,4,4,70.0
+drumstep,4,3,22.0
+afroswing,4,4,39.0
+brazilian phonk,4,4,74.0
+screamo,4,3,64.5
+big beat,4,1,14.5
+c-pop,4,1,32.5
+post-hardcore,4,3,64.5
+dansk pop,4,2,46.5
+future house,4,4,40.5
+jersey club,4,3,4.5
+french indie pop,4,4,43.5
+roots reggae,4,2,33.5
+anti-folk,4,2,42.5
+classical piano,4,2,20.5
+pop urbaine,4,3,56.5
+drift phonk,4,4,33.0
+stutter house,4,4,70.5
+jazz,4,3,26.5
+doom metal,4,2,23.5
+japanese vgm,4,4,31.5
+breakbeat,4,1,14.5
+brazilian funk,3,2,67.0
+azonto,3,2,57.0
+reggae rock,3,1,43.0
+doo-wop,3,3,8.0
+alt country,3,3,58.0
+indie soul,3,2,84.0
+celtic punk,3,3,51.0
+funk carioca,3,2,66.0
+argentine trap,3,1,75.0
+latin house,3,3,29.0
+celtic rock,3,3,51.0
+afro r&b,3,3,57.0
+afropop,3,3,75.0
+edm trap,3,3,33.0
+psychobilly,3,2,20.0
+funk pop,3,2,66.0
+jam band,3,2,32.0
+chillwave,3,3,43.0
+minimalism,3,3,49.0
+metalcore,3,2,71.0
+colombian pop,3,3,70.0
+psytrance,3,2,13.0
+swedish pop,3,3,27.0
+indonesian r&b,3,1,75.0
+french r&b,3,2,59.0
+acoustic pop,3,1,77.0
+gothic rock,3,3,54.0
+post-rock,3,1,33.0
+opera,3,3,21.0
+exotica,3,3,32.0
+nu jazz,3,3,38.0
+crunk,3,3,56.0
+ebm,3,3,47.0
+afropiano,3,3,57.0
+christian pop,3,3,66.0
+new jack swing,3,3,69.0
+dance pop,3,1,70.0
+worship,3,3,67.0
+ambient,3,2,13.0
+brazilian pop,3,2,66.0
+native american music,3,2,43.0
+ccm,2,2,70.5
+progressive metal,2,2,59.5
+funk,2,2,55.0
+chanson,2,2,36.5
+organic house,2,2,21.5
+chillstep,2,2,49.5
+gospel r&b,2,2,61.5
+indie pop,2,1,35.5
+moroccan pop,2,2,42.5
+kayokyoku,2,2,30.5
+soul jazz,2,2,65.5
+breakcore,2,2,55.0
+children's music,2,2,52.0
+tech house,2,2,50.0
+hiplife,2,1,50.5
+hipdut,2,2,42.5
+happy hardcore,2,2,41.0
+roots rock,2,2,61.0
+traditional folk,2,2,34.5
+big band,2,2,28.0
+christian rock,2,2,68.0
+blues,2,2,65.0
+dub,2,2,21.5
+mexican hip hop,2,2,57.0
+sexy drill,2,1,68.0
+pop urbano,2,2,73.5
+techno,2,2,50.0
+bollywood,2,2,7.5
+j-pop,2,2,47.0
+riddim,2,2,32.5
+pop rock,2,1,74.0
+gnawa,2,1,47.0
+latin jazz,2,1,26.5
+ragga,2,2,46.0
+desi,2,2,7.5
+comedy,2,1,51.5
+hardstyle,2,2,41.0
+reggaeton mexa,2,2,67.0
+malayalam hip hop,2,1,70.5
+dembow belico,2,2,80.0
+techengue,2,2,56.5
+nigerian drill,2,2,37.5
+latin hip hop,2,2,57.0
+desi hip hop,2,1,70.5
+trap funk,1,1,85.0
+cumbia norteña,1,1,75.0
+classic blues,1,1,55.0
+nederpop,1,1,27.0
+villancicos,1,1,31.0
+arena rock,1,1,50.0
+shatta,1,1,70.0
+funk consciente,1,1,85.0
+power metal,1,1,25.0
+symphonic metal,1,1,25.0
+gregorian chant,1,1,62.0
+gospel,1,1,57.0
+hi-nrg,1,1,77.0
+jungle,1,1,42.0
+funkot,1,1,58.0
+3 step,1,1,37.0
+uk garage,1,1,70.0
+bolero,1,1,0.0
+acid house,1,1,0.0
+chanson québécoise,1,1,34.0
+swing music,1,1,62.0
+g-house,1,1,54.0
+christian alternative rock,1,1,82.0
+anime rap,1,1,68.0
+grupera,1,1,75.0
+indonesian indie,1,1,79.0
+chicha,1,1,0.0
+samba,1,1,67.0
+boom bap,1,1,65.0
+reggaeton chileno,1,1,84.0
+afro tech,1,1,82.0
+norteño,1,1,75.0
+ranchera,1,1,75.0
+avant-garde,1,1,20.0
+vallenato,1,1,64.0
+gqom,1,1,37.0
+jazz blues,1,1,75.0
+northern soul,1,1,1.0
+melodic house,1,1,0.0
+hardcore techno,1,1,38.0
+amapiano,1,1,14.0
+space rock,1,1,37.0
+deathstep,1,1,43.0
+post-disco,1,1,62.0
+bongo flava,1,1,37.0
+philly soul,1,1,41.0
+hip house,1,1,1.0
+vietnamese hip hop,1,1,47.0
+spoken word,1,1,73.0
+variété française,1,1,34.0
+afro adura,1,1,33.0
+deathrock,1,1,0.0
+vocal jazz,1,1,75.0
+french rap,1,1,54.0
+sludge metal,1,1,37.0
+agronejo,1,1,16.0
+bachata,1,1,60.0
+country blues,1,1,45.0
+lagu jawa,1,1,58.0
+choral,1,1,41.0
+krautrock,1,1,49.0
+desi pop,1,1,0.0
+christian folk,1,1,54.0
+math rock,1,1,48.0
+dembow,1,1,63.0
+tekno,1,1,58.0
+indie punk,1,1,33.0
+speed metal,1,1,7.0
+hindi pop,1,1,15.0
+arrocha,1,1,15.0
+indonesian hip hop,1,1,0.0
+enka,1,1,26.0
+ballroom vogue,1,1,1.0
+stoner metal,1,1,37.0
+requiem,1,1,20.0
+lo-fi house,1,1,32.0
+easy listening,1,1,0.0
+power pop,1,1,61.0
+funk de bh,1,1,13.0
+groove metal,1,1,55.0
+j-rock,1,1,35.0
+indonesian pop,1,1,79.0
+adult standards,1,1,0.0
+idm,1,1,55.0
+soca,1,1,70.0
+shibuya-kei,1,1,59.0
+nu disco,1,1,46.0
+latin alternative,1,1,79.0
+indie r&b,1,1,30.0
+rally house,1,1,41.0
+mpb,1,1,67.0
+djent,1,1,48.0
+lounge,1,1,45.0
+finnish rock,1,1,75.0
+dansk rap,1,1,33.0
+chinese hip hop,1,1,62.0
+v-pop,1,1,47.0
+electro swing,1,1,62.0
+space music,1,1,49.0
+highlife,1,1,21.0
+liquid funk,1,1,65.0
+progressive trance,1,1,72.0
+tejano,1,1,75.0
+acid techno,1,1,58.0
+nova mpb,1,1,67.0
+pinoy hip hop,1,1,6.0
+hindi indie,1,1,0.0
